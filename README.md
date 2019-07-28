@@ -1,6 +1,6 @@
-## Locus Searchbar
+## Universal Searchbar
 
-Built with ReactJS, uses Bootstrap for styling. 
+Built with ReactJS, uses Bootstrap for styling, as part of a coding challenge.
 
 ## Instructions
 
