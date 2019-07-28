@@ -1,33 +1,56 @@
-.App {
-  text-align: center;
+body {
+    overflow: hidden;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.wrapper {
+    margin: 15vh auto;
+    width: 400px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form-control {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.answers-wrapper {
+    padding: 0;
+    border: 1px solid #dee2e6;
+    max-height: 320px;
+    overflow-y: scroll;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.answers-item {
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.highlight {
+    background: #ccff00;
+}
+
+.no-results-found-item {
+    margin: 40px 0;
+    border: 0;
+}
+
+.item-fa {
+    color: #1E90FF;
+    font-size: 12px;
+}
+
+.answers-item.active {
+    cursor: pointer;
+    background: rgba(173,216,230, 0.15);
+}
+
+.row {
+    margin: 2px 0;
+}
+
+.items-row {
+    padding: 4px 0;
+    border-bottom: 1px solid #dee2e6;
+    border-top: 1px solid #dee2e6;
+    margin: 4px 0;
 }
